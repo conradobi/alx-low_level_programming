@@ -1,4 +1,4 @@
-#include <stdio.h>
+\1;95;0c#include <stdio.h>
 /**
  *main - This is the start of the main program
  *Return: Always 0 (Success)
@@ -11,11 +11,11 @@ for (ch = 'a'; ch <= 'z'; ch++)
 {
 putchar(ch);
 }
- putchar('\n');
 for (ch = 'A'; ch <= 'Z'; ch++)
 {
 putchar(ch);
 }
+putchar('\n');
 return (0);
 }
 
