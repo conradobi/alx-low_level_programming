@@ -1,4 +1,4 @@
-\1;95;0c#include <stdio.h>
+#include <stdio.h>
 /**
  *main - This is the start of the main program
  *Return: Always 0 (Success)
@@ -18,4 +18,3 @@ putchar(ch);
 putchar('\n');
 return (0);
 }
-
