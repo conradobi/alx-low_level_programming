@@ -22,7 +22,7 @@ if (x == 57 && y == 56)
 {
 break;
 }
-putchar(',');	     
+putchar(',');
 putchar(' ');
 }
 x++;
