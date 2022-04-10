@@ -13,7 +13,6 @@ while (numSet < 10)
 putchar(48 + numSet);
 if (numSet != 9)
 {
-putchar(',');
 putchar(' ');
 }
 numSet++;

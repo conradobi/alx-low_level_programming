@@ -32,7 +32,6 @@ int x, y;
 		 break;
 	       }
 	     putchar(',');
-	     putchar(',');
 	   }
 	 x++;
        }
