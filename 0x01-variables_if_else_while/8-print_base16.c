@@ -7,14 +7,18 @@
 int main(void)
 {
 char base16;
-for (base16 = '0'; base16 <= '9'; base16++)
+base16 = '0';
+while (base16 <= '9')
 {
 putchar(base16);
+base16++;
 }
-for (base16 = 'a'; base16 <= 'f'; base16++)
+base16 = 'a';
+while (base16 <= 'f')
 {
 putchar(base16);
+base16++;
 }
-putchar('\n');
+ putchar('\n');
 return (0);
 }
