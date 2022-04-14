@@ -4,6 +4,7 @@
 /**                                                                       
 *main - Entry point                                                       
 *Return: Always 0 (Success)                                               
+*
 */
 
 int positive_or_negative()
@@ -25,4 +26,3 @@ printf("%d is negative\n", n);
 }
 return (0);
 }
-
