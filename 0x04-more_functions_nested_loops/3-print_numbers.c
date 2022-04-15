@@ -3,10 +3,13 @@
  * print_numbers - prints numbers between 0 to 9.
  * Return: no return.
  */
-void print_numbers(voiint ch;
-for (ch = 48; ch < 58; ch++)
+void print_numbers(void)
+{
+char ch = '0';
+while (ch <= '9')
 {
 _putchar(ch);
+ch++;
 }
 _putchar('\n');
 }
