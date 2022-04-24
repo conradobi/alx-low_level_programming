@@ -9,6 +9,6 @@
  */
 char *_strcat(char *dest, char *src)
 {
-strcpy(dest, src);
+strcat(dest, src);
 return(dest);
 }
