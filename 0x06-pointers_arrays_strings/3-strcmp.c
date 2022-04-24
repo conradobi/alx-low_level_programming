@@ -1,5 +1,4 @@
-
-1;95;0c#include "main.h"
+#include "main.h"
 #include <string.h>
 /**
  * _strcmp - compare two strings
