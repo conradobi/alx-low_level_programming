@@ -1,25 +1,29 @@
-#include <stdlib.h>
-#include "main.h"
+#include "holberton.h"
 /**
- * _strchr - locates a character in a string
+ * _strspn - gets the length of a prefix substring
  *
- * @s: the string to check
- * @c: the character we're looking for
+ * @s: segment to return bytes from
+ * @accept: the bytes to include
  *
- * Return: a pointer to the first occurance of the character @c in the string
- * @s. Return NULL if the character isn't found
+ * Return: the number of bytes in the initial segment of @s which consist only
+ * of bytes from @accept
  */
-
-char *_strchr(char *s, char c)
+unsigned int _strspn(char *s, char *accept)
 {
-while (*s)
+int i, j;
+int c = 0;
+for (i = 0; s[i] != '\0'; i++)
 {
-if (*s != c)
-s++;
-else
-return (s);
+if (s[i] != 32)
+{
+for (j = 0; accept[j] != '\0'; j++)
+{
+if (s[i] == accept[j])
+c++;
 }
-if (c == '\0')
-return (s);
-return (NULL);
+}
+else
+return (c);
+}
+return (c);
 }
