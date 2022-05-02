@@ -6,10 +6,10 @@
  * @argv: string lists
  * Return: 0
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 (void)argv;
 argc = argc - 1;
-printf("%d\n", argc);  
+printf("%d\n", argc);
 return (0);
 }
