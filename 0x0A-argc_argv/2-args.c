@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * main - program that prints all arguments it receives
- * @argc - int number of arguments in the command
- * @argv - string list
+ * @argc: int number of arguments in the command
+ * @argv: string list
  * Return: 0
  */
 int main(int argc, char *argv[])
