@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * main - program that prints all arguments it receives
- * @argc - number of arguments in the command
- * @argv - argument string list
+ * @argc - int number of arguments in the command
+ * @argv - string list
  * Return: 0
  */
 int main(int argc, char *argv[])
@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 int count = 1;
 if (argc > 1)
 {
-while ( count <= argc)
+while (count < argc)
 {
 printf("%s\n", argv[count]);
 count++;
@@ -19,4 +19,3 @@ count++;
 }
 return (0);
 }
- 
