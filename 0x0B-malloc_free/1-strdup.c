@@ -21,7 +21,7 @@ while (str[count] != '\0')
 {
 count++;
 }
-mainstr = malloc(sizeof(char) * (count+ 1));
+mainstr = malloc(sizeof(char) * (count + 1));
 if (mainstr == NULL)
 {
 return (NULL);
