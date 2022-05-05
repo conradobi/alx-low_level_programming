@@ -24,6 +24,7 @@ return (NULL);
 while (count < size)
 {
 array[count] = c;
+count++;
 }
 return (array);
 }
